@@ -8,9 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-primary font-bold">PT</span>
-              </div>
+              <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-MJnxryXcgXBm9MNbGoCyU7.png" alt="PetTravel" className="w-10 h-10" />
               <span className="font-bold text-lg">PetTravel</span>
             </div>
             <p className="text-white/70 text-sm">
