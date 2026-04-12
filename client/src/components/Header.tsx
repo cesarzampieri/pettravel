@@ -17,9 +17,9 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-haVveYeM53NDdH2xwzz4CC.webp" alt="PetTravel" className="w-10 h-10" />
-          <span className="font-bold text-xl text-primary hidden sm:inline">PetTravel</span>
+        <div className="flex items-center gap-1.5">
+          <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-haVveYeM53NDdH2xwzz4CC.webp" alt="PetTravel" className="w-9 h-9" />
+          <span className="font-bold text-lg text-primary">PetTravel</span>
         </div>
 
         {/* Desktop Navigation */}

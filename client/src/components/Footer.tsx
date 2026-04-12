@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-MJnxryXcgXBm9MNbGoCyU7.png" alt="PetTravel" className="w-10 h-10" />
+            <div className="flex items-center gap-1.5 mb-4">
+              <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-MJnxryXcgXBm9MNbGoCyU7.png" alt="PetTravel" className="w-9 h-9" />
               <span className="font-bold text-lg">PetTravel</span>
             </div>
             <p className="text-white/70 text-sm">
