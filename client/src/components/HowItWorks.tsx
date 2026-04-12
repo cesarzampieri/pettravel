@@ -1,5 +1,3 @@
-import { CheckCircle2 } from "lucide-react";
-
 export default function HowItWorks() {
   const steps = [
     {
@@ -39,39 +37,22 @@ export default function HowItWorks() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
-          {steps.map((step, index) => (
-            <div key={index} className="flex flex-col">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">
-                  {step.number}
-                </div>
-                {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute left-1/2 top-16 w-0.5 h-12 bg-border transform translate-x-6"></div>
-                )}
-              </div>
-              <h3 className="font-bold text-foreground mb-2">{step.title}</h3>
-              <p className="text-foreground/70 text-sm">{step.description}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Timeline for mobile/tablet */}
-        <div className="mt-12 lg:hidden">
-          <div className="space-y-6">
+        {/* Timeline - Desktop and Mobile */}
+        <div className="max-w-4xl mx-auto">
+          <div className="space-y-8">
             {steps.map((step, index) => (
-              <div key={index} className="flex gap-4">
+              <div key={index} className="flex gap-6">
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm">
+                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">
                     {step.number}
                   </div>
                   {index < steps.length - 1 && (
-                    <div className="w-0.5 h-12 bg-border my-2"></div>
+                    <div className="w-1 h-20 bg-border mt-2"></div>
                   )}
                 </div>
-                <div className="pb-6">
-                  <h3 className="font-bold text-foreground mb-1">{step.title}</h3>
-                  <p className="text-foreground/70 text-sm">{step.description}</p>
+                <div className="pb-6 pt-2">
+                  <h3 className="font-bold text-foreground mb-2 text-lg">{step.title}</h3>
+                  <p className="text-foreground/70">{step.description}</p>
                 </div>
               </div>
             ))}
