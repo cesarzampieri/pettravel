@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
-  const whatsappUrl = "https://wa.me/5543984989220?text=Olá%20PetTravel!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
+  const whatsappUrl = "https://wa.me/5543984989220?text=Olá%20PassageiroPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
+
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
