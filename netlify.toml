@@ -1,7 +1,7 @@
 [build]
-  base = "client"
-  command = "pnpm run build"
-  publish = "dist"
+  base = "."
+  command = "pnpm install && pnpm run build"
+  publish = "client/dist"
 
 [build.environment]
   NODE_VERSION = "22"
