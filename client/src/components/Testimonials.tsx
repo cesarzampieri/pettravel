@@ -5,7 +5,7 @@ export default function Testimonials() {
     {
       name: "Maria Silva",
       location: "São Paulo → Miami",
-      text: "Confiei meu querido Max à PassageiroPet e não me arrependo. Ele chegou em Miami seguro, feliz e bem cuidado. Excelente atendimento!",
+      text: "Confiei meu querido Max à TransportaPet e não me arrependo. Ele chegou em Miami seguro, feliz e bem cuidado. Excelente atendimento!",
       rating: 5,
     },
     {
@@ -17,7 +17,7 @@ export default function Testimonials() {
     {
       name: "Ana Costa",
       location: "Belo Horizonte → São Paulo",
-      text: "Serviço de transporte terrestre impecável. Meu cachorro chegou feliz e descansado. Recomendo muito a PassageiroPet!",
+      text: "Serviço de transporte terrestre impecável. Meu cachorro chegou feliz e descansado. Recomendo muito a TransportaPet!",
       rating: 5,
     },
   ];
@@ -28,7 +28,7 @@ export default function Testimonials() {
         <div className="text-center mb-16">
           <h2 className="text-primary mb-4">Depoimentos de Clientes</h2>
           <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
-            Veja o que nossos clientes dizem sobre a experiência com a PassageiroPet.
+            Veja o que nossos clientes dizem sobre a experiência com a TransportaPet.
           </p>
         </div>
 

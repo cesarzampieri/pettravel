@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const whatsappUrl = "https://wa.me/5543984989220?text=Olá%20PassageiroPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
+  const whatsappUrl = "https://wa.me/5543984989220?text=Olá%20TransportaPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
 
   const scrollToSection = (id: string) => {
     setIsMenuOpen(false);
@@ -18,8 +18,8 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-1.5">
-          <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-haVveYeM53NDdH2xwzz4CC.webp" alt="PassageiroPet" className="w-9 h-9" />
-          <span className="font-bold text-lg text-primary">PassageiroPet</span>
+          <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-haVveYeM53NDdH2xwzz4CC.webp" alt="TransportaPet" className="w-9 h-9" />
+          <span className="font-bold text-lg text-primary">TransportaPet</span>
         </div>
 
         {/* Desktop Navigation */}

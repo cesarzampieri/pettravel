@@ -8,8 +8,8 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-1.5 mb-4">
-              <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-MJnxryXcgXBm9MNbGoCyU7.png" alt="PassageiroPet" className="w-9 h-9" />
-              <span className="font-bold text-lg">PassageiroPet</span>
+              <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/dog-logo-MJnxryXcgXBm9MNbGoCyU7.png" alt="TransportaPet" className="w-9 h-9" />
+              <span className="font-bold text-lg">TransportaPet</span>
             </div>
             <p className="text-white/70 text-sm">
               Transporte seguro de cães e gatos desde 2009.
@@ -76,7 +76,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-white/70 text-sm">
-          <p>&copy; 2024 PassageiroPet. Todos os direitos reservados.</p>
+          <p>&copy; 2024 TransportaPet. Todos os direitos reservados.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">
               Política de Privacidade

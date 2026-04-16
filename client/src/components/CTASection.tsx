@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 export default function CTASection() {
-  const whatsappUrl = "https://wa.me/5543984989220?text=Olá%20PassageiroPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
+  const whatsappUrl = "https://wa.me/5543984989220?text=Olá%20TransportaPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
 
   return (
     <section className="py-20 bg-primary text-white">
@@ -9,7 +9,7 @@ export default function CTASection() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-white mb-6">Pronto para Viajar com Segurança?</h2>
           <p className="text-white/90 text-lg mb-8 leading-relaxed">
-            Não deixe seu pet para trás. Confie na PassageiroPet para uma viagem segura, confortável e sem preocupações. Fale conosco agora mesmo!
+            Não deixe seu pet para trás. Confie na TransportaPet para uma viagem segura, confortável e sem preocupações. Fale conosco agora mesmo!
           </p>
           <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
             <Button className="bg-accent hover:bg-accent/90 text-white font-semibold text-lg px-8 py-6 h-auto gap-2">
