@@ -16,7 +16,7 @@ export default function Testimonials() {
     },
     {
       name: "Ana Costa",
-      location: "Belo Horizonte → São Paulo",
+      location: "Londrina → Belo Horizonte",
       text: "Serviço de transporte terrestre impecável. Meu cachorro chegou feliz e descansado. Recomendo muito a TransportaPet!",
       rating: 5,
     },
