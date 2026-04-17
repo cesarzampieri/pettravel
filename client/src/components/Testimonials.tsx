@@ -3,8 +3,8 @@ import { Star } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Maria Silva",
-      location: "São Paulo → Miami",
+      name: "Alaice",
+      location: "Londrina → Boston",
       text: "Confiei meu querido Max à TransportaPet e não me arrependo. Ele chegou em Miami seguro, feliz e bem cuidado. Excelente atendimento!",
       rating: 5,
     },
