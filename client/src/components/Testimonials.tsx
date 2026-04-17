@@ -9,9 +9,9 @@ export default function Testimonials() {
       rating: 5,
     },
     {
-      name: "João Santos",
-      location: "Rio de Janeiro → Portugal",
-      text: "Processo tranquilo do início ao fim. A equipe foi atenciosa, respondeu todas as minhas dúvidas e minha gata Mimi viajou com segurança.",
+      name: "Cláudia",
+      location: "Londrina → Londres",
+      text: "Processo tranquilo do início ao fim. A equipe foi atenciosa, respondeu todas as minhas dúvidas e minha gata Chanel viajou com segurança.",
       rating: 5,
     },
     {
