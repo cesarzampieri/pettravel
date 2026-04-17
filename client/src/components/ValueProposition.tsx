@@ -15,7 +15,7 @@ export default function ValueProposition() {
     {
       icon: MapPin,
       title: "Busca e Entrega",
-      description: "Buscamos seu pet em casa e entregamos no destino final. Serviço door-to-door.",
+      description: "Buscamos seu pet em casa e entregamos no destino final. Serviço porta a porta.",
     },
     {
       icon: Heart,
