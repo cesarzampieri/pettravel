@@ -4,7 +4,7 @@ export default function WhyChooseUs() {
   const reasons = [
     {
       icon: Award,
-      title: "15+ Anos de Experiência",
+      title: "13+ Anos de Experiência",
       description: "Atuando desde 2013, somos referência em transporte de pets no Brasil e exterior.",
     },
     {
