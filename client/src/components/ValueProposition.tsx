@@ -30,7 +30,7 @@ export default function ValueProposition() {
         <div className="text-center mb-16">
           <h2 className="text-primary mb-4">Por Que Escolher TransportaPet</h2>
           <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
-            Somos especialistas em transporte de pets com mais de 15 anos de experiência. Cada detalhe é pensado para o bem-estar do seu companheiro.
+            Somos especialistas em transporte de pets com mais de 13 anos de experiência. Cada detalhe é pensado para o bem-estar do seu companheiro.
           </p>
         </div>
 

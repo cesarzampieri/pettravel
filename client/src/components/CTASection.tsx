@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 
 export default function CTASection() {
-  const whatsappUrl = "https://wa.me/5543984989220?text=Olá%20TransportaPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
+  const whatsappUrl = "https://wa.me/5543988706090?text=Olá%20TransportaPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
+
 
   return (
     <section className="py-20 bg-primary text-white">

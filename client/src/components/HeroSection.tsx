@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
-  const whatsappUrl = "https://wa.me/5543984989220?text=Olá%20TransportaPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
+  const whatsappUrl = "https://wa.me/5543988706090?text=Olá%20TransportaPet!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20transporte%20de%20pets.";
+
 
 
 
@@ -25,7 +26,7 @@ export default function HeroSection() {
             Seu Pet Merece uma Viagem Segura
           </h1>
           <p className="text-white/90 text-lg md:text-xl mb-8 leading-relaxed max-w-xl">
-            Transporte terrestre e aéreo para cães e gatos. Buscamos e entregamos no seu destino final, com segurança e conforto. Desde 2009 reunindo famílias.
+            Transporte terrestre e aéreo para cães e gatos. Buscamos e entregamos no seu destino final, com segurança e conforto. Desde 2013 reunindo famílias.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">

@@ -1,5 +1,5 @@
 export default function Footer() {
-  const whatsappUrl = "https://wa.me/5543984989220";
+  const whatsappUrl = "https://wa.me/5543988706090";
 
   return (
     <footer className="bg-primary text-white py-12">
@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="font-bold text-lg">TransportaPet</span>
             </div>
             <p className="text-white/70 text-sm">
-              Transporte seguro de cães e gatos desde 2009.
+              Transporte seguro de cães e gatos desde 2013.
             </p>
           </div>
 
