@@ -76,7 +76,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-white/70 text-sm">
-          <p>&copy; 2024 TransportaPet. Todos os direitos reservados.</p>
+          <p>&copy; 2026 TransportaPet. Todos os direitos reservados.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">
               Política de Privacidade
