@@ -20,9 +20,7 @@ export default function CTASection() {
               Fale Conosco no WhatsApp
             </Button>
           </a>
-          <p className="text-white/70 text-sm mt-6">
-            Disponível 24/7 para tirar suas dúvidas e fornecer orçamentos.
-          </p>
+
         </div>
       </div>
     </section>
