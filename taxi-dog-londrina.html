@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Dog em Londrina - TransportaPet</title>
+    <meta name="description" content="Serviço de Taxi Dog em Londrina. Transporte seguro e confortável para seu cachorro. Busca e entrega na sua região.">
+    <meta name="keywords" content="taxi dog londrina, transporte cachorro londrina, transporte pet londrina">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Taxi Dog em Londrina - TransportaPet">
+    <meta property="og:description" content="Transporte seguro para seu cachorro em Londrina">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://transportapet.com.br/taxi-dog-londrina.html">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id=GTM-TP9H63ZD'+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TP9H63ZD');</script>
+    <!-- End Google Tag Manager -->
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/taxi-dog-hero-YAdVen274NvPybqkxT3oNY.webp');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .hero-content {
+            max-width: 600px;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #10B981;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            color: #f0f0f0;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: #10B981;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #059669;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+        }
+        
+        section h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #0F4C75;
+        }
+        
+        /* Value Proposition */
+        .value-props {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .prop-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .prop-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .prop-card h3 {
+            color: #0F4C75;
+            margin: 15px 0;
+            font-size: 1.3rem;
+        }
+        
+        .prop-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        /* Process Section */
+        .process {
+            background: #f9fafb;
+        }
+        
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        
+        .process-step {
+            text-align: center;
+        }
+        
+        .process-step img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: #10B981;
+            color: white;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .process-step h3 {
+            color: #0F4C75;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .process-step p {
+            color: #666;
+        }
+        
+        /* Benefits Section */
+        .benefits {
+            background: #EFF6FF;
+        }
+        
+        .benefits-list {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .benefit-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .benefit-item::before {
+            content: "✓";
+            color: #10B981;
+            font-weight: 700;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+        }
+        
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .testimonial {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .stars {
+            color: #FFD93D;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .testimonial p {
+            color: #666;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .testimonial strong {
+            color: #0F4C75;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .testimonial small {
+            color: #999;
+        }
+        
+        /* FAQ Section */
+        .faq {
+            background: #f9fafb;
+        }
+        
+        .faq-item {
+            background: white;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .faq-question {
+            padding: 20px;
+            background: white;
+            border: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            font-weight: 600;
+            color: #0F4C75;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-question:hover {
+            background: #f0f0f0;
+        }
+        
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            color: #666;
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+            padding: 20px;
+        }
+        
+        /* CTA Final */
+        .cta-final {
+            background: linear-gradient(135deg, #10B981 0%, #0F4C75 100%);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        .cta-final h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .cta-final p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #f0f0f0;
+        }
+        
+        /* Sticky CTA */
+        .sticky-cta {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 999;
+        }
+        
+        .sticky-cta .btn {
+            border-radius: 50px;
+            box-shadow: 0 5px 20px rgba(16, 185, 129, 0.4);
+        }
+        
+        /* Footer */
+        footer {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            section h2 {
+                font-size: 1.8rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9H63ZD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge">✓ Disponível Agora em Londrina</div>
+            <h1>Taxi Dog em Londrina</h1>
+            <p>Transporte seguro e confortável para seu cachorro. Busca e entrega na sua região.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/5543988706090?text=Olá! Gostaria de saber mais sobre o serviço de Taxi Dog em Londrina." class="btn btn-primary" target="_blank">
+                    📱 Chamar Agora no WhatsApp
+                </a>
+                <a href="#como-funciona" class="btn btn-secondary">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Value Proposition -->
+    <section>
+        <div class="container">
+            <h2>Por Que Escolher TransportaPet para Taxi Dog em Londrina?</h2>
+            <div class="value-props">
+                <div class="prop-card">
+                    <h3>📍 Cobertura Total</h3>
+                    <p>Atendemos toda Londrina e região</p>
+                </div>
+                <div class="prop-card">
+                    <h3>⏱️ Rápido</h3>
+                    <p>Chegamos em até 30 minutos</p>
+                </div>
+                <div class="prop-card">
+                    <h3>🛡️ Seguro</h3>
+                    <p>Motoristas treinados e experientes</p>
+                </div>
+                <div class="prop-card">
+                    <h3>👥 13 Anos</h3>
+                    <p>Confiança de milhares de clientes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Como Funciona -->
+    <section class="process" id="como-funciona">
+        <div class="container">
+            <h2>Como Funciona</h2>
+            <div class="process-grid">
+                <div class="process-step">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/taxi-dog-process-1-fdG72fqartnCDrJfqM4xNf.webp" alt="Você Liga">
+                    <div class="step-number">1</div>
+                    <h3>Você Liga</h3>
+                    <p>Envie uma mensagem no WhatsApp com a localização do seu cachorro</p>
+                </div>
+                <div class="process-step">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/taxi-dog-process-2-M8fMwarMBDJaZYS3Dbg5G6.webp" alt="Nós Buscamos">
+                    <div class="step-number">2</div>
+                    <h3>Nós Buscamos</h3>
+                    <p>Motorista profissional busca seu pet e oferece transporte confortável</p>
+                </div>
+                <div class="process-step">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663145715139/S6EqWXLHAhcvApRMnLzi6o/taxi-dog-process-3-PvA4shxKrQs8on4LdxxKye.webp" alt="Entrega Feliz">
+                    <div class="step-number">3</div>
+                    <h3>Entrega Feliz</h3>
+                    <p>Seu cachorro chega seguro e feliz no destino final</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Benefícios -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Benefícios do Taxi Dog</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">Seu cachorro não fica sozinho em casa</div>
+                <div class="benefit-item">Transporte seguro e confortável</div>
+                <div class="benefit-item">Motoristas treinados e experientes</div>
+                <div class="benefit-item">Rastreamento em tempo real</div>
+                <div class="benefit-item">Seguro incluído</div>
+                <div class="benefit-item">Disponível 7 dias por semana</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Depoimentos -->
+    <section>
+        <div class="container">
+            <h2>O Que Clientes de Londrina Dizem</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Excelente serviço! Meu Max adora o Taxi Dog. Muito confiável e seguro."</p>
+                    <strong>Maria Silva</strong>
+                    <small>Londrina</small>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Recomendo muito! Os motoristas são super atenciosos com os pets."</p>
+                    <strong>João Santos</strong>
+                    <small>Londrina</small>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Serviço rápido e profissional. Meu cachorro chegou feliz e seguro!"</p>
+                    <strong>Ana Costa</strong>
+                    <small>Região de Londrina</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Perguntas Frequentes</h2>
+            <div style="max-width: 700px; margin: 0 auto;">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                        Qual é o valor do Taxi Dog em Londrina?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">Os preços variam conforme a distância e tipo de serviço. Envie uma mensagem no WhatsApp para receber um orçamento personalizado.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                        Meu cachorro pode viajar em qualquer horário?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">Sim! Oferecemos serviço 24/7. Basta entrar em contato via WhatsApp para agendar.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                        Como é feito o transporte?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">Nossos carros são limpos, confortáveis e climatizados. Seu cachorro viaja com segurança em uma área apropriada do veículo.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                        Vocês atendem fora de Londrina?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">Sim! Atendemos toda a região de Londrina. Consulte-nos para saber se sua localização está coberta.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>Pronto para Usar Taxi Dog em Londrina?</h2>
+            <p>Seu cachorro merece um transporte seguro e confortável. Entre em contato agora!</p>
+            <a href="https://wa.me/5543988706090?text=Olá! Gostaria de saber mais sobre o serviço de Taxi Dog em Londrina." class="btn btn-primary" target="_blank">
+                📱 Chamar no WhatsApp Agora
+            </a>
+        </div>
+    </section>
+    
+    <!-- Sticky CTA -->
+    <div class="sticky-cta">
+        <a href="https://wa.me/5543988706090?text=Olá! Gostaria de saber mais sobre o serviço de Taxi Dog em Londrina." class="btn btn-primary" target="_blank">
+            📱 WhatsApp
+        </a>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 TransportaPet. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
